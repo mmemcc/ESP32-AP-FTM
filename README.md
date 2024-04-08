@@ -31,7 +31,9 @@ power 값 설정 시 실제 적용되는 값
 ex) power = 8 ~19 로 설정 시 실제 power는 8 즉, int8_t power 값이 [,] 범위 안이면 다 똑같음
 
 **실제 RSSI 값 (주변 신호가 매우 많은 연구실 실내에서, 변동 있음)**
+
 power = 8; → RSSI = -55 ~ -60 dBm
+
 power = 84; → RSSI = -35 ~ -40 dBm
 
 ### AP 40MHz 설정
