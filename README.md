@@ -36,7 +36,9 @@ power = 84; → RSSI = -35 ~ -40 dBm
 
 ### AP 40MHz 설정
 채널 설정 시, primary channel, second channel 설정
+
 primary channel: 1~12
+
 ```second channel = {
 WIFI_SECOND_CHAN_ABOVE; //primary channel 위로 설정
 WIFI_SECOND_CHAN_BELOW; // primary channel 아래로 설정
