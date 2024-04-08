@@ -29,7 +29,6 @@ power = 8; → RSSI = -55 ~ -60 dBm
 power = 84; → RSSI = -35 ~ -40 dBm
 
 ### AP 40MHz 설정
-
 채널 설정 시, primary channel, second channel 설정
 primary channel: 1~12
 ```second channel = {
