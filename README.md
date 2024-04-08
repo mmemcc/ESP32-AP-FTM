@@ -41,10 +41,12 @@ power = 84; → RSSI = -35 ~ -40 dBm
 
 primary channel: 1~12
 
-```second channel = {
+```c
+second channel = {
 WIFI_SECOND_CHAN_ABOVE; //primary channel 위로 설정
 WIFI_SECOND_CHAN_BELOW; // primary channel 아래로 설정
-}```
+}
+```
 
 ex) primary channel = 1,  second channel = WIFI_SECOND_CHAN_ABOVE
 위와 같이 설정 시, 중심채널이 3이고 대역폭이 40MHz인 신호 생성
