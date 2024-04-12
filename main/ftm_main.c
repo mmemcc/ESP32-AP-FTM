@@ -65,10 +65,13 @@ static void wifi_ap()
     g_ap_config.ap.channel = channel;
     wifi_second_chan_t second_chan;
 
-    if (channel <= 7){
+    if (channel <= 7 && bw == 40){
         second_chan = WIFI_SECOND_CHAN_ABOVE;
-    } else {
+    } else if ((channel > 7 && bw == 40)) {
         second_chan = WIFI_SECOND_CHAN_BELOW;
+    }
+    else {
+        second_chan = WIFI_SECOND_CHAN_NONE;
     }
 
     esp_wifi_ftm_resp_set_offset(offset_cm);
