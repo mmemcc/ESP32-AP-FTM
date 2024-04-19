@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/user/esp/v5.1.3/esp-idf/examples/system/console/advanced/components/cmd_nvs
+# Install script for directory: C:/Espressif/frameworks/esp-idf-v5.1.2/examples/system/console/advanced/components/cmd_nvs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

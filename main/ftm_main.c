@@ -14,9 +14,9 @@
 
  
 // Wifi Credentials
-const char* SSID = "ESP32_AP_40";
+const char* SSID = "ESP32_AP_20";
 const char* PWD = "34081948";
-uint8_t channel = 1;
+uint8_t channel = 11;
 uint8_t bw = 20; // 20 or 40
 int8_t power = 84;
 int16_t offset_cm = 0; // cm

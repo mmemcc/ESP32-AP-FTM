@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/user/esp/v5.1.3/esp-idf/components/esp_system/port/soc/esp32s3
+# Install script for directory: C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/soc/esp32s3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

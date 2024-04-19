@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/user/esp/v5.1.3/esp-idf/components/partition_table
+# Install script for directory: C:/Espressif/frameworks/esp-idf-v5.1.2/components/partition_table
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
