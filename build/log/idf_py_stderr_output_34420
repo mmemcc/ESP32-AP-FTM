@@ -1,0 +1,1980 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM7 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM7 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+[0m
+[0;33m0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+[0m
+[0;33m0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x403759de: panic_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/panic.c:452
+0x4037beb1: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:84
+0x40382bea: abort at C:/Espressif/frameworks/esp-idf-v5.1.2/components/newlib/abort.c:38
+0x4037bea7: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/esp_err.c:50
+0x4200903d: wifi_ap at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:77 (discriminator 1)
+0x420091ad: app_main at C:/Users/user/workspace/esp32/ftm_ap/main/ftm_main.c:110 (discriminator 2)
+0x4207bd8b: main_task at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/app_startup.c:208 (discriminator 13)
+0x4037e899: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375860: esp_restart_noos_dig at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375494: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/port/cpu_start.c:157
+[0m
+[0m

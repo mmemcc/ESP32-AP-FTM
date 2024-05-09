@@ -19,7 +19,7 @@ const char* PWD = "34081948";
 uint8_t channel = 11;
 uint8_t bw = 20; // 20 or 40
 int8_t power = 84;
-int16_t offset_cm = 0; // cm
+//int16_t offset_cm = 200; // cm
 
 wifi_config_t g_ap_config = {
     .ap.max_connection = 4,
@@ -74,7 +74,7 @@ static void wifi_ap()
         second_chan = WIFI_SECOND_CHAN_NONE;
     }
 
-    ESP_ERROR_CHECK(esp_wifi_ftm_resp_set_offset(offset_cm));
+
     ESP_ERROR_CHECK(esp_wifi_set_config(ESP_IF_WIFI_AP, &g_ap_config));
 
     if (bw == 40) {
@@ -90,6 +90,8 @@ static void wifi_ap()
     esp_wifi_get_max_tx_power(&power);
     ESP_ERROR_CHECK(esp_wifi_set_channel(channel, second_chan));
     esp_wifi_get_channel(&channel, &second_chan);
+
+    //ESP_ERROR_CHECK(esp_wifi_ftm_resp_set_offset(offset_cm));
 
     ESP_LOGI(TAG_AP, "Starting SoftAP with FTM Responder support, SSID - %s, Password - %s, Primary Channel - %d, Bandwidth - %dMHz",
              SSID, PWD, channel, bw

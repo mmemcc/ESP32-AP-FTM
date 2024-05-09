@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "ftm_ap",
-    "project_version":    "a64ae81-dirty",
+    "project_version":    "bdaa335-dirty",
     "project_path":       "C:/Users/user/workspace/esp32/ftm_ap",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.1.2",
     "build_dir":          "C:/Users/user/workspace/esp32/ftm_ap/build",
