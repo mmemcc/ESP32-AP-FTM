@@ -12,14 +12,15 @@
 #include "esp_err.h"
 #include "sdkconfig.h"
 
- 
+ bool offset = false;
+
 // Wifi Credentials
 const char* SSID = "ESP32_AP_20";
 const char* PWD = "34081948";
 uint8_t channel = 11;
 uint8_t bw = 20; // 20 or 40
 int8_t power = 84;
-//int16_t offset_cm = 200; // cm
+
 
 wifi_config_t g_ap_config = {
     .ap.max_connection = 4,
@@ -91,8 +92,12 @@ static void wifi_ap()
     ESP_ERROR_CHECK(esp_wifi_set_channel(channel, second_chan));
     esp_wifi_get_channel(&channel, &second_chan);
 
-    //ESP_ERROR_CHECK(esp_wifi_ftm_resp_set_offset(offset_cm));
-
+    // Set the offset
+    if (offset) {
+    int16_t offset_cm = 0; // cm
+    ESP_ERROR_CHECK(esp_wifi_ftm_resp_set_offset(offset_cm));
+    };
+    
     ESP_LOGI(TAG_AP, "Starting SoftAP with FTM Responder support, SSID - %s, Password - %s, Primary Channel - %d, Bandwidth - %dMHz",
              SSID, PWD, channel, bw
     );
